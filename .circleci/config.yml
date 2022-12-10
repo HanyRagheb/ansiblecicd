@@ -8,7 +8,7 @@ jobs:
     steps:
       - checkout
       - add_ssh_keys:
-          fingerprints: ["41:3c:ed:36:11:f5:13:b0:a2:e9:3b:47:3c:e6:cd:20"]
+          fingerprints: ["d0:a4:7b:e9:9c:1e:33:c7:eb:28:5e:94:56:87:af:aa"]
       - run:
           name: Install dependencies
           command: |
@@ -63,3 +63,5 @@ workflows:
       # - anotherjob:
       #     requires: 
       #       - previousjob
+
+# VS Code Extension Version: 1.4.0
